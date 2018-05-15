@@ -59,5 +59,16 @@
         "url": "https://blogs.msdn.microsoft.com/iotdev/feed/"
       }
     ]
+  },
+  {
+    "type": "image",
+    "title": "Image",
+    "src": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/landingpage-banner2.png",
+    "url": "https://aka.ms/iot-devkit"
+  },
+  {
+    "type": "text",
+    "title": "Text",
+    "text": "All the sensors and parts you love, no soldering needed. Welcome to cloud IoT development."
   }
 ]
