@@ -2,7 +2,8 @@
     "examples": [
         {
             "name": "Device Registration with DPS",
-            "url": "https://github.com/IoTDevEnvExamples/DevKitDPS/archive/master.zip"
+            "url": "https://github.com/IoTDevEnvExamples/DevKitDPS/archive/master.zip",
+            "featured": true
         }
     ]
 }
