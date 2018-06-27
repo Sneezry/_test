@@ -1,0 +1,47 @@
+<!-- The HTML & CSS code is based on https://github.com/alexcican/lab/tree/gh-pages/switch -->
+<!-- The MIT License (MIT) Copyright (c) 2013, Alex Cican. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Raspberry Pi Simple LED</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<button id="switch" class="off">
+  <span>
+    <b>I</b>
+    <b>O</b>
+  </span>
+</button>
+<script>
+// Modify the function name for your environment
+var functionName = '';
+
+var state = 'off';
+var url = `https://${functionName}.azurewebsites.net/api/simple-led`;
+var btn = document.getElementById('switch');
+
+btn.onclick = function() {
+  callMethod(state);
+}
+
+callMethod(state);
+
+function callMethod(method) {
+  var api = url + '?method=' + method;
+  var el = document.createElement('script');
+  el.src = api;
+  document.body.appendChild(el);
+}
+
+function callback(code) {
+  if (code === 200) {
+    state = state === 'off' ? 'on' : 'off';
+    btn.className = state;
+  }
+}
+</script>
+</body>
+</html>
