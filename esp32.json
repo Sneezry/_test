@@ -1,0 +1,40 @@
+{
+    "$schema": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/schemas/v2/example.json",
+    "examples": [
+        {   "name": "ESP32 Get Started",
+            "project_name": "esp32_get_started",
+            "description": "Send simulated data from ESP32 to Azure IoTHub.",
+            "url": "https://github.com/IoTDevEnvExamples/ESP32GetStarted/archive/master.zip",
+            "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-ESP32-get-started-th.jpg",
+            "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/esp32/esp32-get-started.md",
+            "difficulty": "easy"
+        },
+        {
+            "name": "ESP32 ASA CosmosDB",
+            "project_name": "esp32_asa_cosmosdb",
+            "description": "Send simulated data to IotHub and record some unusual data to Cosmosdb.",
+            "url": "https://github.com/IoTDevEnvExamples/ESP32ASACosmosDB/archive/master.zip",
+            "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-ESP32-ASA-CosmosDB-th.jpg",
+            "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/esp32/esp32-stream-analytics-cosmos-db.md",
+            "difficulty": "easy"
+        },
+        {
+            "name": "ESP32 State",
+            "project_name": "esp32_state",
+            "description": "Send the Wifi around Esp32 device to IotHub and use webpage to control device to restart.",
+            "url": "https://github.com/IoTDevEnvExamples/ESP32State/archive/master.zip",
+            "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-ESP32-State-th.jpg",
+            "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/esp32/esp32-state.md",
+            "difficulty": "easy"
+        },
+        {
+            "name": "ESP32 Azure IoT Central",
+            "project_name": "esp32_iot_central",
+            "description": "Azure IoT Central example for esp32-azure-kit board.",
+            "url": "https://github.com/lzyms/ESP32IoTCentral/archive/master.zip",
+            "image": "https://raw.githubusercontent.com/lzyms/ESP32IoTCentral/master/images/esp32-board.jpg",
+            "tutorial": "https://github.com/lzyms/ESP32IoTCentral/blob/master/README.MD",
+            "difficulty": "medium"
+        }
+    ]
+}
