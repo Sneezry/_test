@@ -1,6 +1,6 @@
 
 {
-    "$schema": "https://raw.githubusercontent.com/Sneezry/_test/master/ev4.json",
+    "$schema": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/schemas/v4/example.json",
     "examples": [
         {
             "name": "Device Registration with DPS",
