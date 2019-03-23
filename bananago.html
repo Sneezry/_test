@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAA0lBMVEX//////wDy8vL/3wD6+voZFg4iGw3u7u4TFQ3/5gD/0gDzsgDr6+spJiEeHRb//QD/8wDn4gD/4QD/zQD5tQAIBgDn5+fj4+MqKioyKxsZGRkrKRghIhYmHRMUFBPq6wDp5QD/4wD/2gD5xADsqwDmqQATEQAOCQD19fX09PTf39/d3d3W1tYxMCkjIyAkHRpqNQ8ODg4XDwglHgTW1wLb3AHepAH1+AD/6ADt5wDe3gD/1gDV0wDp0QDuzgD/yQD/wgD/vgD0vAD/uwDWsAAiGQAuUvjMAAAAqElEQVQY01WORxKCQBRE5zuOIDmIZAQkmHPO8f5XElhYw9v1q66uRn+ajhEIiKI5X6xMRGP6xoypVbzjze1SgnH3kNpUQTzBod+ihNSDdocSA68uhtMLVKJRghgr24CMtWLDMViWXZItFJm78z5iVVkN1RAAx5z+Wk+QdAVQFAXHZ07nUiIgRvxgHGla1NbfiV0ebVjZ7sHz/DP5BiNUIYg5ISSXxmX4Ab/XDcf3lafyAAAAAElFTkSuQmCC">
+    <title>Banana Go</title>
+    <style>
+        body {
+            background: gold;
+            color: black;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        input[type=text] {
+            font-size: 18px;
+            height: 36px;
+            line-height: 36px;
+            padding: 5px;
+            border-radius: 0;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 2px solid black;
+            outline: none;
+            font-weight: bold;
+            box-sizing: border-box;
+            vertical-align: top;
+            max-width: 60%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        input[type=submit] {
+            font-size: 18px;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 10px;
+            border-radius: 0;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            background: black;
+            color: white;
+            box-sizing: border-box;
+            vertical-align: top;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        .notification {
+            text-align: center;
+            font-size: 14px;
+            margin: 20px 5px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Banana Go</h1>
+    <form>
+        <input type="text" name="url" maxlength="4096" placeholder="http://"><input type="submit" value="Short!">
+    </form>
+    <div class="notification"></div>
+</body>
+</html>
